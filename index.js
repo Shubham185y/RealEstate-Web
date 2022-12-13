@@ -1,12 +1,12 @@
-// $(document).ready(function() {
-// //Preloader
-// preloaderFadeOutTime = 500;
-// function hidePreloader() {
-// var preloader = $('.spinner-wrapper');
-// preloader.fadeOut(preloaderFadeOutTime);
-// }
-// hidePreloader();
-// });
+$(document).ready(function() {
+//Preloader
+preloaderFadeOutTime = 500;
+function hidePreloader() {
+var preloader = $('.spinner-wrapper');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+});
 
 function darkMode() {
     var element = document.body;
