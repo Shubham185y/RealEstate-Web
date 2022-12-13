@@ -1,12 +1,12 @@
-$(document).ready(function() {
-//Preloader
-preloaderFadeOutTime = 500;
-function hidePreloader() {
-var preloader = $('.spinner-wrapper');
-preloader.fadeOut(preloaderFadeOutTime);
-}
-hidePreloader();
-});
+// $(document).ready(function() {
+// //Preloader
+// preloaderFadeOutTime = 500;
+// function hidePreloader() {
+// var preloader = $('.spinner-wrapper');
+// preloader.fadeOut(preloaderFadeOutTime);
+// }
+// hidePreloader();
+// });
 
 function darkMode() {
     var element = document.body;
@@ -25,10 +25,6 @@ function darkMode() {
    
   }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> bab1f0d5f23c281dc82484a076ea70fa2fa87b0d
   window.addEventListener('resize', function(){
     addRequiredClass();
 })
